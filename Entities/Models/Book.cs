@@ -10,8 +10,7 @@ namespace Entity.Model
     {
         public int BookID { get; set; }
         public string? BookName { get; set; }
-        public string? AuthorID { get; set; }
-        public string? ISBN { get; set; }
+        public int AuthorID { get; set; }
         public int CategoryID { get; set; }
         public char AdressCorridor { get; set; }
         public int AdressColumn { get; set; }

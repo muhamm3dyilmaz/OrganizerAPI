@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Repositories.Contracts;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,6 +10,8 @@ namespace Repository.Contracts
     //Nesnelere özel yazılan Repo InterFacelerin kayıt alanı.
     public interface IRepositoryManager
     {
+        IAuthorRepository AuthorRepo { get; }
+        ICategoryRepository CategoryRepo { get; }
         Task SaveAsync();
     }
 }

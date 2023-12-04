@@ -1,4 +1,5 @@
-﻿using Repository.Contracts;
+﻿using Repositories.Contracts;
+using Repository.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +10,25 @@ namespace Repository.EFCore
 {
     public class RepositoryManager : IRepositoryManager
     {
-        public Task SaveAsync()
+        private readonly RepositoryContext _context;
+        private readonly IAuthorRepository _authorRepository;
+        private readonly ICategoryRepository _categoryRepository;
+
+        public RepositoryManager(RepositoryContext context, IAuthorRepository authorRepository, 
+            ICategoryRepository categoryRepository)
         {
-            throw new NotImplementedException();
+            _context = context;
+            _authorRepository = authorRepository;
+            _categoryRepository = categoryRepository;
+        }
+
+        public IAuthorRepository AuthorRepo => _authorRepository;
+
+        public ICategoryRepository CategoryRepo => _categoryRepository;
+
+        public async Task SaveAsync()
+        {
+            await _context.SaveChangesAsync();
         }
     }
 }
