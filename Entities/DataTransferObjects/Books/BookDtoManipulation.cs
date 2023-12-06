@@ -13,11 +13,7 @@ namespace Entity.DataTransferObjects
         public string? BookName { get; init; }
 
         [Required(ErrorMessage = "AuthorID is required field.")]
-        public string? AuthorID { get; init; }
-
-        [Required(ErrorMessage = "ISBN is required field")]
-        [StringLength(13, ErrorMessage = "ISBN must be 13 digits.")]
-        public string? ISBN { get; init; }
+        public int AuthorID { get; init; }
 
         [Required(ErrorMessage = "CategoryID is required field.")]
         public int CategoryID { get; init; }

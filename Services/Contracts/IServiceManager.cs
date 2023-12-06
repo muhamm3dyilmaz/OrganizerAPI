@@ -11,5 +11,6 @@ namespace Services.Contracts
     {
         IAuthorService AuthorService { get; }
         ICategoryService CategoryService { get; }
+        IBookService BookService { get; }
     }
 }

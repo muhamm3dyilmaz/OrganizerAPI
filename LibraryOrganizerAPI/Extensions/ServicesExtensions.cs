@@ -33,12 +33,14 @@ namespace LibraryOrganizerAPI.Extensions
         {
             services.AddScoped<IAuthorRepository, AuthorRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<IBookRepository, BookRepository>();
         }
 
         public static void RegisterServices(this IServiceCollection services)
         {
             services.AddScoped<IAuthorService, AuthorManager>();
             services.AddScoped<ICategoryService, CategoryManager>();
+            services.AddScoped<IBookService, BookManager>();
         }
 
     }

@@ -10,8 +10,7 @@ namespace Entity.DataTransferObjects
     {
         public int BookID { get; init; }
         public string? BookName { get; init; }
-        public string? AuthorID { get; init; }
-        public string? ISBN { get; init; }
+        public int AuthorID { get; init; }
         public int CategoryID { get; init; }
         public char AdressCorridor { get; init; }
         public int AdressColumn { get; init; }
