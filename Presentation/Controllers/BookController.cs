@@ -1,5 +1,6 @@
 ﻿using Entity.DataTransferObjects;
 using Microsoft.AspNetCore.Mvc;
+using Presentation.ActionFilters;
 using Services.Contracts;
 using System;
 using System.Collections.Generic;
@@ -11,6 +12,8 @@ namespace Presentation.Controllers
 {
     [ApiController]
     [Route("api/books")]
+    [ApiExplorerSettings(GroupName = "v1")]
+    [ServiceFilter(typeof(LogFilterAttribute))]
     public class BookController : ControllerBase
     {
         private readonly IServiceManager _manager;

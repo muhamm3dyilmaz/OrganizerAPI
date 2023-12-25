@@ -1,5 +1,6 @@
 ﻿using Entity.DataTransferObjects.Categories;
 using Microsoft.AspNetCore.Mvc;
+using Presentation.ActionFilters;
 using Services.Contracts;
 using System;
 using System.Collections.Generic;
@@ -12,6 +13,8 @@ namespace Presentation.Controllers
 {
     [ApiController]
     [Route("api/categories")]
+    [ApiExplorerSettings(GroupName = "v1")]
+    [ServiceFilter(typeof(LogFilterAttribute))]
     public class CategoryController : ControllerBase
     {
         private readonly IServiceManager _manager;

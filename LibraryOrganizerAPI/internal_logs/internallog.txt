@@ -1,0 +1,44 @@
+2023-12-25 10:37:56.3283 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-12-25 10:37:56.3922 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-25 10:37:56.4003 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\ASP.NET CORE WEB API\LibraryOrganizerAPI\LibraryOrganizerAPI\nlog.config
+2023-12-25 10:37:56.4003 Info Configuration initialized.
+2023-12-25 10:41:24.7301 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-12-25 10:41:24.7647 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-25 10:41:24.7737 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\ASP.NET CORE WEB API\LibraryOrganizerAPI\LibraryOrganizerAPI\nlog.config
+2023-12-25 10:41:24.7737 Info Configuration initialized.
+2023-12-25 10:46:31.8266 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-12-25 10:46:31.8661 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-25 10:46:31.8661 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\ASP.NET CORE WEB API\LibraryOrganizerAPI\LibraryOrganizerAPI\nlog.config
+2023-12-25 10:46:31.8924 Info Configuration initialized.
+2023-12-25 10:48:41.1245 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-12-25 10:48:41.1535 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-25 10:48:41.1637 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\ASP.NET CORE WEB API\LibraryOrganizerAPI\LibraryOrganizerAPI\nlog.config
+2023-12-25 10:48:41.1637 Info Configuration initialized.
+2023-12-25 10:48:52.2733 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-12-25 10:48:52.3014 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-25 10:48:52.3102 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\ASP.NET CORE WEB API\LibraryOrganizerAPI\LibraryOrganizerAPI\nlog.config
+2023-12-25 10:48:52.3215 Info Configuration initialized.
+2023-12-25 10:51:36.2006 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-12-25 10:51:36.2313 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-25 10:51:36.2313 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\ASP.NET CORE WEB API\LibraryOrganizerAPI\LibraryOrganizerAPI\nlog.config
+2023-12-25 10:51:36.2492 Info Configuration initialized.
+2023-12-25 10:53:47.9516 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-12-25 10:53:47.9926 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-25 10:53:47.9926 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\ASP.NET CORE WEB API\LibraryOrganizerAPI\LibraryOrganizerAPI\nlog.config
+2023-12-25 10:53:48.0143 Info Configuration initialized.
+2023-12-25 11:05:50.1413 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-12-25 11:05:50.1812 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-25 11:05:50.1957 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\ASP.NET CORE WEB API\LibraryOrganizerAPI\LibraryOrganizerAPI\nlog.config
+2023-12-25 11:05:50.2090 Info Configuration initialized.
+2023-12-25 11:06:29.9945 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-12-25 11:06:30.0205 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-25 11:06:30.0279 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\ASP.NET CORE WEB API\LibraryOrganizerAPI\LibraryOrganizerAPI\nlog.config
+2023-12-25 11:06:30.0408 Info Configuration initialized.
+2023-12-25 11:10:32.9094 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-12-25 11:10:32.9556 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-25 11:10:32.9648 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\ASP.NET CORE WEB API\LibraryOrganizerAPI\LibraryOrganizerAPI\nlog.config
+2023-12-25 11:10:32.9780 Info Configuration initialized.
+2023-12-25 11:14:54.4166 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-12-25 11:14:54.4462 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-25 11:14:54.4462 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\ASP.NET CORE WEB API\LibraryOrganizerAPI\LibraryOrganizerAPI\nlog.config
+2023-12-25 11:14:54.4702 Info Configuration initialized.
